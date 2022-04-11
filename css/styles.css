@@ -1,0 +1,169 @@
+/* Top portion of the website here */
+body, html{
+    margin: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 100);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+
+h3 {
+
+    color:white;
+    background-color:black;
+    
+}
+
+.image_text img{
+    width:100%;
+    height:50%;
+}
+.image_text h1{
+    color:white;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    font-size:100px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.image_text {
+    position:relative;
+    text-align:center;
+}
+
+.month {
+    margin-left:20%;
+    margin-bottom:20px;
+    border:0.1px solid;
+    padding: 5px;
+    background-color:lightgray;
+    height:40px;
+    max-width: 65%;  
+
+}
+
+.month h4 {
+    margin:0px;
+    padding-top: 1%;
+
+}
+
+
+
+
+
+/* Showtimes Body Here */
+.show_container{
+    display:grid;
+    margin-left:20%;
+    max-width: 65%;
+    
+    
+
+}
+
+.show_container img{
+    
+    height: 150px;
+    width:190px;
+    float:left;
+    padding-right:50px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    
+    
+    
+
+}
+
+.show_container button {
+    float:right;
+    height:30px;
+    width:90px;
+    background-color:#a76d03;
+    color: white;
+    margin-top:10%;
+    
+}
+
+.showtext {
+    display:inline-block;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+i {
+    color:#a76d03;
+}
+
+/* Footer Here */
+footer {
+    background-color:black;
+    color: white;
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top:10px;
+    
+}
+
+footer img{
+    padding: 4%;
+    margin-left:35%;
+}
+
+footer ul{
+    margin-left:-20%;
+    
+}
+
+footer li{
+    padding:5%;
+    
+}
+
+hr{
+    margin:0px;
+    margin-top:5px;
+}
